@@ -1,0 +1,149 @@
+body{
+    
+    background-image: linear-gradient(135deg, rgb(57, 61, 121), rgb(11, 108, 235), #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+* {
+    text-decoration: none;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.logo{
+    width: 100px;
+    margin-left: 100px;
+    padding: 20px 0;
+}
+header nav ul{
+    margin-right: 100px;
+    margin-top: 70px;
+}
+header nav ul li{
+    display: block;
+    list-style: none;
+    display: inline-block;
+    padding: 0 16px;
+}
+header nav ul li a{
+    border-top: 0px;
+    border-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+}
+header nav ul li :hover {
+    transition: 0.5s ease;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 6px 0;
+}
+header{
+    width:100%;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-size:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.container img{
+    
+    margin: 20px;
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.container .text{
+    padding-left: 100px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    
+}
+.container {
+
+    margin-top: 100px;
+    margin-left: 30px;
+     display: flex; */
+    justify-content: center;
+}
+form div{
+    margin-bottom: 14px;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"], input[type="email"], input[type="message"],
+textarea{
+    background: rgba(255,255,255, .5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="message"]{
+    height: 6rem;
+}
+.pcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pcontainer img{
+    margin: 10px;
+    max-width: 100%;
+    max-height: 300px;
+    width: auto;
+}
+.footer-sm{
+    float: right;
+}
+footer .footer-sm img{
+    width: 40px;
+}
+table th{
+  padding: 20px;
+  color: orange
+}
+.me-img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+}
