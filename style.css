@@ -48,6 +48,7 @@ body{
     width: 100px;
     margin-left: 100px;
     padding: 20px 0;
+                
 }
 header nav ul{
     margin-right: 100px;
@@ -142,8 +143,31 @@ table th{
   padding: 20px;
   color: orange
 }
-.me-img{
+#me-img{
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
     width:  180px;       /* ※縦横を同値に */
     height: 180px;       /* ※縦横を同値に */
+}
+
+#slideshow{
+   
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px; 
+    object-fit: cover;
+}
+.fade-in {
+    opacity: 1;
+    animation: fadeIn .5s linear;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+.fade-out {
+    opacity: 0;
+    animation: fadeOut .5s linear;
+}
+@keyframes fadeOut {
+    0% {opacity: 1}
+    100% {opacity: 0}
 }

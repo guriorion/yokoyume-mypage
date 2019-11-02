@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <meta charset="ja">
+    <meta charset="UTF-8">
     <title>My Website</title>
     <link rel="stylesheet" href="style.css" rel="styleseet" type="text/css" />
+
+    <link rel="stylesheet" href="lightbox.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="lightbox.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -13,6 +17,7 @@
             <ul>
                 <li><a href="photography.html">Photography</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li id="Memo-btn"><a href="">Memo</a></li>
             </ul>
         </nav>
 
@@ -20,13 +25,13 @@
     <main>
             <div class="pcontainer">
                     <div>
-                        <img src="pictures/tennis-1381230_640.png" />
+                        <a href="pictures/tennis-1381230_640.png" rel="lightbox[sample-group]"><img src="pictures/tennis-1381230_640.png" alt="" width="100"/></a>
                     </div>
                     <div>
-                        <img src="pictures/keyboard-70506_640.png" />
+                        <a href="pictures/keyboard-70506_640.png" rel="lightbox[sample-group]"><img src="pictures/keyboard-70506_640.png" alt="" width="100"/></a>
                     </div>
                     <div>
-                        <img src="pictures/game-controller-1532747_640.png" />
+                        <a href="pictures/game-controller-1532747_640.png" rel="lightbox[sample-group]"><img src="pictures/game-controller-1532747_640.png" alt="" width="100"/></a>
                     </div>
                     
              </div>
@@ -44,6 +49,8 @@
                     </a>
                 </div>
          </footer>
+         <script src="main.js"></script>
+        
     
 </body>
 </html>
